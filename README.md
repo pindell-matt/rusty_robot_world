@@ -6,7 +6,7 @@ Inspired by the [Turing School Project - Robot World](https://github.com/turings
 Setting up the database:
 ```
 cargo install diesel_cli
-echo DATABASE_URL=postgres://username:password@localhost/robot_world_terraformed > .env
+echo DATABASE_URL=postgres://username:password@localhost/rusty_robot_world > .env
 diesel migration run
 ```
 
