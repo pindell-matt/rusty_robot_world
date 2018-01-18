@@ -1,0 +1,7 @@
+CREATE TABLE robots (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR NOT NULL,
+  city VARCHAR NOT NULL,
+  avatar VARCHAR NOT NULL,
+  department VARCHAR NOT NULL
+)
